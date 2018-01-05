@@ -26,7 +26,7 @@ git clone https://github.com/JesseWeb/JumpIt.git
 5.命令行输入
 
 ```
-    npm run start
+npm run start
 ```
 ![](./result.jpg)
 
