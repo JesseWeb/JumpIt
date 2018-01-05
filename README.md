@@ -1,14 +1,35 @@
-# NodeJs开挂玩微信跳一跳 不要太厉害了
+# NodeJS开挂玩微信跳一跳 不要太厉害了
 ## 前言:
-本脚本参照python版本的开发模式去开发,内置了 ADB 环境,使用者无需安装adb和配置全局变量等
+本脚本参照python版本去开发,内置了 ADB 环境,使用者无需安装 ADB 和配置全局变量等
 
 ![](./jump.gif)
 
 
 ## 使用教程
+1. 安装 [NodeJS](https://www.baidu.com/link?url=9bGToaOCDpACM8CqFEVH1cMRBq8Z6nENrAVGOoPqlt3&wd=&eqid=a54c5cf80000d215000000065a4f1bfc)
+
+2. 将本项目克隆到本地
 
 ```
+git clone https://github.com/JesseWeb/JumpIt.git
 ```
+
+3. 进入项目根目录JumpIt Shift+右键 选择在此处打开命令窗口
+
+```
+ npm install
+```
+等待包安装完毕后,把安卓手机连上电脑,打开调试模式,开发者选项中有模拟触摸选项的请一并开启
+
+4. 进入微信打开微信跳一跳，点击开始游戏
+
+5.命令行输入
+
+```
+    npm run start
+```
+![](./result.jpg)
+
 
 
 
