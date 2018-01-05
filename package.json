@@ -1,0 +1,12 @@
+{
+  "name": "nodeJumpIt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "image-parser": "^1.2.6"
+  },
+  "scripts": {
+    "start": "nodemon jump.js"
+  }
+}
