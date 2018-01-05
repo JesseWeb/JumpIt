@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "image-parser": "^1.2.6"
+    "image-parser": "^1.2.6",
+    "nodemon": "^1.14.7"
   },
   "scripts": {
     "start": "nodemon jump.js"
